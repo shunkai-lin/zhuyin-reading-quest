@@ -41,6 +41,7 @@ function Zhuyin({ value }: { value: string }) {
   );
 }
 export default function Home() {
+  const [focusReading, setFocusReading] = useState(true);
   const [ready, setReady] = useState(false),
     [passed, setPassed] = useState<string[]>([]),
     [level, setLevel] = useState(0),
@@ -318,7 +319,7 @@ export default function Home() {
     }
   }
   return (
-    <main>
+    <main className={focusReading ? 'focus-reading' : ''}>
       <header>
         <div className="brand">
           <span className="brand-icon">
@@ -424,6 +425,9 @@ export default function Home() {
         </aside>
         <article className={'practice ' + (phase === 'success' ? 'won' : '')}>
           <div className="card-top">
+            <button className="reading-view" onClick={() => setFocusReading(!focusReading)}>
+              {focusReading ? '關卡與獎勵' : '放大練習'}
+            </button>
             <span>第 {index + 1} 題</span>
             <span>
               {passed.includes(item.id)

@@ -27,3 +27,33 @@ h1{font-size:34px}
  .actions button{padding:12px 8px;gap:8px}
  .card-top{flex-wrap:wrap}.reward-bar button{flex-basis:100%}
 }
+/* A viewport-sized reading stage keeps the lesson in the child's focus. */
+.reading-view{background:#ebf2ff;color:#245bdf;border-radius:12px;padding:10px 16px;font-size:22px;min-height:48px}
+main.focus-reading{max-width:none;padding:12px}
+.focus-reading> :not(.workspace){display:none}
+.focus-reading .workspace{display:block}
+.focus-reading .journey{display:none}
+.focus-reading .practice{height:calc(100dvh - 24px);min-height:580px;padding:16px 24px;box-shadow:none}
+.focus-reading .card-top{align-items:center;flex-wrap:wrap}
+.focus-reading .reading{width:100%;min-height:0;padding:18px 0;gap:12px;container-type:size}
+.focus-reading .syllable{gap:12px}
+.focus-reading .hanzi{font-size:min(76cqh,68cqw);line-height:1.1}
+.focus-reading .zhuyin{font-size:min(17cqh,15cqw);letter-spacing:0}
+.focus-reading .level-1 .hanzi{font-size:min(76cqh,34cqw)}
+.focus-reading .level-1 .zhuyin{font-size:min(17cqh,7.5cqw)}
+.focus-reading .level-2{gap:10px;align-content:center}
+.focus-reading .level-2 .syllable{gap:4px}
+.focus-reading .level-2 .hanzi{font-size:min(24cqh,23cqw)}
+.focus-reading .level-2 .zhuyin{font-size:min(6cqh,6cqw)}
+.focus-reading .feedback{margin:4px 0 12px}
+.focus-reading .actions button{min-height:72px}
+.focus-reading .big-circle{font-size:min(55vw,55dvh);top:15%;right:8%}
+@media(max-width:600px){
+ main.focus-reading{padding:6px}
+ .focus-reading .practice{height:calc(100dvh - 12px);padding:12px;min-height:580px}
+ .focus-reading .card-top{gap:8px;font-size:20px}
+ .reading-view{font-size:20px;padding:8px 10px}
+ .focus-reading .syllable{gap:6px}
+ .focus-reading .feedback{font-size:22px}
+ .focus-reading .actions button{font-size:24px}
+}
