@@ -3,3 +3,27 @@
 .zhuyin{position:relative;padding-right:.6em;writing-mode:horizontal-tb;display:inline-flex}.zhuyin>span:first-child{writing-mode:vertical-rl;text-orientation:upright}.zhuyin .tone{position:absolute;right:0;top:50%;transform:translateY(-50%);writing-mode:horizontal-tb;letter-spacing:0}.zhuyin.neutral .tone{top:-.4em;left:0;right:.6em;text-align:center;transform:none}
 .cloud-status{display:flex;justify-content:space-between;align-items:center;gap:12px;color:#20643f;font-size:20px;margin:-8px 0 18px}.cloud-status.pending{color:#864000}.cloud-status button{font-size:20px;padding:10px 16px;border-radius:12px;background:white}.cloud-panel{background:#f1f6ff;border:1px solid #ccdcee;border-radius:18px;padding:24px;margin-bottom:24px}.cloud-panel h3{font-size:24px;margin:0 0 10px}.cloud-panel label,.cloud-panel output{display:block;margin:18px 0 10px}.learning-code{display:block;overflow-wrap:anywhere;font-size:22px;letter-spacing:1px;user-select:all;margin:16px 0}.cloud-panel input{display:block;width:100%;font:inherit;min-height:56px;background:white;color:#20344c;border:2px solid #9bb5d4;padding:12px;border-radius:12px;margin-bottom:14px}.cloud-panel button{padding:14px 18px;border-radius:12px;font-size:22px;min-height:54px}
 .rewards{margin:0 0 24px}.reward-bar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:#fff5d6;border:2px solid #ebcb73;border-radius:20px;padding:16px 22px}.reward-bar strong{display:flex;align-items:center;gap:8px;font-size:28px;color:#785300;margin-right:auto}.draw-button,.collection-button{display:inline-flex;justify-content:center;align-items:center;gap:10px;min-height:58px;border-radius:14px;padding:14px 18px;font-size:22px;font-weight:700}.draw-button{background:#245bdf;color:white}.collection-button{background:white;color:#245bdf}.reward-hint,.reward-message{display:block;font-size:20px;line-height:1.6;margin:10px 6px 0;color:#594819}.collection{background:white;border-radius:22px;padding:24px;margin-top:18px}.collection h2{font-size:28px;margin:0 0 12px}.collection p{font-size:20px}.collection-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:20px}.reward-card{display:flex;flex-direction:column;align-items:center;text-align:center;background:#f0f6ff;border:1px solid #c5d8ef;border-radius:18px;padding:14px;font-size:22px;gap:8px}.reward-card img{width:130px;height:130px;object-fit:contain;max-width:100%}.reward-card span{color:#245bdf}.reward-card.unowned{background:#f6f8fb;color:#627287;border-style:dashed}.reward-card .mystery{font-size:70px;height:130px;display:grid;place-items:center;color:#9bacbf}.reward-fallback{font-size:80px}.reward-dialog{margin:auto;width:min(520px,calc(100% - 32px));padding:32px;border:0;border-radius:28px;background:#fff;color:#20344c;text-align:center;max-height:90dvh;overflow:auto}.reward-dialog::backdrop{background:#142947bb}.reward-dialog p{font-size:28px;margin-top:16px}.reward-dialog img{display:block;width:230px;height:230px;max-width:100%;object-fit:contain;margin:16px auto}.reward-dialog h2{font-size:34px;margin:8px 0}.reward-dialog strong{display:block;font-size:24px;color:#21844b;margin-bottom:24px}.dialog-close{position:absolute;top:10px;right:10px;min-width:48px;min-height:48px;border-radius:50%;display:grid;place-items:center;background:#edf2f8}.reward-dialog .draw-button{width:100%}@media(max-width:700px){.reward-bar{padding:14px;gap:12px}.reward-bar strong{width:100%}.reward-bar button{flex:1;font-size:20px;padding:12px}.collection-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.collection{padding:18px}.reward-card{padding:10px}.reward-card img{height:110px}.reward-card .mystery{height:110px}}
+/* Larger reading type for early readers; let sentences wrap instead of shrinking. */
+h1{font-size:34px}
+.brand p,.level small,.card-top,.eyebrow,.journey p,footer,.notice,.reward-hint,.reward-message,.cloud-status,.collection p{font-size:22px}
+.level,.help,.draw-button,.collection-button,.cloud-panel button{font-size:24px}
+.hanzi{font-size:200px}
+.zhuyin{font-size:48px}
+.level-1 .hanzi{font-size:140px}
+.level-1 .zhuyin{font-size:40px}
+.level-2 .hanzi{font-size:76px}
+.level-2 .zhuyin{font-size:30px}
+.reading{padding:42px 0;min-height:280px;row-gap:30px}
+.practice{min-height:550px}
+.feedback,.actions button{font-size:28px}
+.actions button{min-height:76px}
+@media(max-width:600px){
+ h1{font-size:30px}.help,.level,.level small,.reward-bar button{font-size:22px}
+ .hanzi{font-size:156px}.zhuyin{font-size:40px}
+ .level-1 .hanzi{font-size:88px}.level-1 .zhuyin{font-size:26px}
+ .level-2 .hanzi{font-size:58px}.level-2 .zhuyin{font-size:26px}
+ .reading{gap:10px;row-gap:28px;min-height:260px}
+ .feedback,.actions button{font-size:24px}
+ .actions button{padding:12px 8px;gap:8px}
+ .card-top{flex-wrap:wrap}.reward-bar button{flex-basis:100%}
+}
