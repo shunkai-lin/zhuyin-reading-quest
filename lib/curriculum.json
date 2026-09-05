@@ -1,0 +1,1100 @@
+[
+  {
+    "name": "一個字",
+    "items": [
+      {
+        "id": "0-1",
+        "text": "你",
+        "zhuyin": [
+          "ㄋㄧˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-2",
+        "text": "我",
+        "zhuyin": [
+          "ㄨㄛˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-3",
+        "text": "左",
+        "zhuyin": [
+          "ㄗㄨㄛˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-4",
+        "text": "右",
+        "zhuyin": [
+          "ㄧㄡˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-5",
+        "text": "前",
+        "zhuyin": [
+          "ㄑㄧㄢˊ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-6",
+        "text": "大",
+        "zhuyin": [
+          "ㄉㄚˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-7",
+        "text": "風",
+        "zhuyin": [
+          "ㄈㄥ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-8",
+        "text": "來",
+        "zhuyin": [
+          "ㄌㄞˊ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-9",
+        "text": "玩",
+        "zhuyin": [
+          "ㄨㄢˊ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-10",
+        "text": "跑",
+        "zhuyin": [
+          "ㄆㄠˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-11",
+        "text": "火",
+        "zhuyin": [
+          "ㄏㄨㄛˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-12",
+        "text": "車",
+        "zhuyin": [
+          "ㄔㄜ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-13",
+        "text": "山",
+        "zhuyin": [
+          "ㄕㄢ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-14",
+        "text": "出",
+        "zhuyin": [
+          "ㄔㄨ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-15",
+        "text": "小",
+        "zhuyin": [
+          "ㄒㄧㄠˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-16",
+        "text": "開",
+        "zhuyin": [
+          "ㄎㄞ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-17",
+        "text": "心",
+        "zhuyin": [
+          "ㄒㄧㄣ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-18",
+        "text": "草",
+        "zhuyin": [
+          "ㄘㄠˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-19",
+        "text": "天",
+        "zhuyin": [
+          "ㄊㄧㄢ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-20",
+        "text": "多",
+        "zhuyin": [
+          "ㄉㄨㄛ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-21",
+        "text": "少",
+        "zhuyin": [
+          "ㄕㄠˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-22",
+        "text": "水",
+        "zhuyin": [
+          "ㄕㄨㄟˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-23",
+        "text": "去",
+        "zhuyin": [
+          "ㄑㄩˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-24",
+        "text": "上",
+        "zhuyin": [
+          "ㄕㄤˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-25",
+        "text": "好",
+        "zhuyin": [
+          "ㄏㄠˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-26",
+        "text": "看",
+        "zhuyin": [
+          "ㄎㄢˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-27",
+        "text": "花",
+        "zhuyin": [
+          "ㄏㄨㄚ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-28",
+        "text": "下",
+        "zhuyin": [
+          "ㄒㄧㄚˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-29",
+        "text": "空",
+        "zhuyin": [
+          "ㄎㄨㄥ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-30",
+        "text": "早",
+        "zhuyin": [
+          "ㄗㄠˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-31",
+        "text": "田",
+        "zhuyin": [
+          "ㄊㄧㄢˊ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-32",
+        "text": "是",
+        "zhuyin": [
+          "ㄕˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-33",
+        "text": "他",
+        "zhuyin": [
+          "ㄊㄚ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-34",
+        "text": "找",
+        "zhuyin": [
+          "ㄓㄠˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-35",
+        "text": "回",
+        "zhuyin": [
+          "ㄏㄨㄟˊ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-36",
+        "text": "到",
+        "zhuyin": [
+          "ㄉㄠˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-37",
+        "text": "人",
+        "zhuyin": [
+          "ㄖㄣˊ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-38",
+        "text": "笑",
+        "zhuyin": [
+          "ㄒㄧㄠˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-39",
+        "text": "走",
+        "zhuyin": [
+          "ㄗㄡˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-40",
+        "text": "在",
+        "zhuyin": [
+          "ㄗㄞˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-41",
+        "text": "吹",
+        "zhuyin": [
+          "ㄔㄨㄟ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-42",
+        "text": "停",
+        "zhuyin": [
+          "ㄊㄧㄥˊ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-43",
+        "text": "有",
+        "zhuyin": [
+          "ㄧㄡˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-44",
+        "text": "高",
+        "zhuyin": [
+          "ㄍㄠ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-45",
+        "text": "想",
+        "zhuyin": [
+          "ㄒㄧㄤˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-46",
+        "text": "爬",
+        "zhuyin": [
+          "ㄆㄚˊ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-47",
+        "text": "說",
+        "zhuyin": [
+          "ㄕㄨㄛ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-48",
+        "text": "叫",
+        "zhuyin": [
+          "ㄐㄧㄠˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-49",
+        "text": "星",
+        "zhuyin": [
+          "ㄒㄧㄥ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "0-50",
+        "text": "陽",
+        "zhuyin": [
+          "ㄧㄤˊ"
+        ],
+        "source": "textbook"
+      }
+    ]
+  },
+  {
+    "name": "兩個字",
+    "items": [
+      {
+        "id": "1-1",
+        "text": "一起",
+        "zhuyin": [
+          "ㄧˋ",
+          "ㄑㄧˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-2",
+        "text": "我們",
+        "zhuyin": [
+          "ㄨㄛˇ",
+          "˙ㄇㄣ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-3",
+        "text": "不停",
+        "zhuyin": [
+          "ㄅㄨˋ",
+          "ㄊㄧㄥˊ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-4",
+        "text": "火車",
+        "zhuyin": [
+          "ㄏㄨㄛˇ",
+          "ㄔㄜ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-5",
+        "text": "山洞",
+        "zhuyin": [
+          "ㄕㄢ",
+          "ㄉㄨㄥˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-6",
+        "text": "一個",
+        "zhuyin": [
+          "ㄧˊ",
+          "ㄍㄜˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-7",
+        "text": "請問",
+        "zhuyin": [
+          "ㄑㄧㄥˇ",
+          "ㄨㄣˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-8",
+        "text": "小草",
+        "zhuyin": [
+          "ㄒㄧㄠˇ",
+          "ㄘㄠˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-9",
+        "text": "星星",
+        "zhuyin": [
+          "ㄒㄧㄥ",
+          "˙ㄒㄧㄥ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-10",
+        "text": "多少",
+        "zhuyin": [
+          "ㄉㄨㄛ",
+          "ㄕㄠˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-11",
+        "text": "太陽",
+        "zhuyin": [
+          "ㄊㄞˋ",
+          "ㄧㄤˊ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-12",
+        "text": "水珠",
+        "zhuyin": [
+          "ㄕㄨㄟˇ",
+          "ㄓㄨ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-13",
+        "text": "滑梯",
+        "zhuyin": [
+          "ㄏㄨㄚˊ",
+          "ㄊㄧ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-14",
+        "text": "天上",
+        "zhuyin": [
+          "ㄊㄧㄢ",
+          "ㄕㄤˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-15",
+        "text": "下去",
+        "zhuyin": [
+          "ㄒㄧㄚˋ",
+          "ㄑㄩˋ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-16",
+        "text": "秋千",
+        "zhuyin": [
+          "ㄑㄧㄡ",
+          "ㄑㄧㄢ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-17",
+        "text": "天空",
+        "zhuyin": [
+          "ㄊㄧㄢ",
+          "ㄎㄨㄥ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-18",
+        "text": "回音",
+        "zhuyin": [
+          "ㄏㄨㄟˊ",
+          "ㄧㄣ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-19",
+        "text": "山谷",
+        "zhuyin": [
+          "ㄕㄢ",
+          "ㄍㄨˇ"
+        ],
+        "source": "textbook"
+      },
+      {
+        "id": "1-20",
+        "text": "開心",
+        "zhuyin": [
+          "ㄎㄞ",
+          "ㄒㄧㄣ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-21",
+        "text": "左右",
+        "zhuyin": [
+          "ㄗㄨㄛˇ",
+          "ㄧㄡˋ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-22",
+        "text": "向前",
+        "zhuyin": [
+          "ㄒㄧㄤˋ",
+          "ㄑㄧㄢˊ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-23",
+        "text": "大小",
+        "zhuyin": [
+          "ㄉㄚˋ",
+          "ㄒㄧㄠˇ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-24",
+        "text": "來回",
+        "zhuyin": [
+          "ㄌㄞˊ",
+          "ㄏㄨㄟˊ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-25",
+        "text": "出來",
+        "zhuyin": [
+          "ㄔㄨ",
+          "ㄌㄞˊ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-26",
+        "text": "出去",
+        "zhuyin": [
+          "ㄔㄨ",
+          "ㄑㄩˋ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-27",
+        "text": "開花",
+        "zhuyin": [
+          "ㄎㄞ",
+          "ㄏㄨㄚ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-28",
+        "text": "水田",
+        "zhuyin": [
+          "ㄕㄨㄟˇ",
+          "ㄊㄧㄢˊ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-29",
+        "text": "上下",
+        "zhuyin": [
+          "ㄕㄤˋ",
+          "ㄒㄧㄚˋ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-30",
+        "text": "好玩",
+        "zhuyin": [
+          "ㄏㄠˇ",
+          "ㄨㄢˊ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-31",
+        "text": "看看",
+        "zhuyin": [
+          "ㄎㄢˋ",
+          "˙ㄎㄢ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-32",
+        "text": "花草",
+        "zhuyin": [
+          "ㄏㄨㄚ",
+          "ㄘㄠˇ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-33",
+        "text": "下車",
+        "zhuyin": [
+          "ㄒㄧㄚˋ",
+          "ㄔㄜ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-34",
+        "text": "早上",
+        "zhuyin": [
+          "ㄗㄠˇ",
+          "ㄕㄤˋ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-35",
+        "text": "找到",
+        "zhuyin": [
+          "ㄓㄠˇ",
+          "ㄉㄠˋ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-36",
+        "text": "回來",
+        "zhuyin": [
+          "ㄏㄨㄟˊ",
+          "ㄌㄞˊ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-37",
+        "text": "小人",
+        "zhuyin": [
+          "ㄒㄧㄠˇ",
+          "ㄖㄣˊ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-38",
+        "text": "大人",
+        "zhuyin": [
+          "ㄉㄚˋ",
+          "ㄖㄣˊ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-39",
+        "text": "大火",
+        "zhuyin": [
+          "ㄉㄚˋ",
+          "ㄏㄨㄛˇ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-40",
+        "text": "風吹",
+        "zhuyin": [
+          "ㄈㄥ",
+          "ㄔㄨㄟ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-41",
+        "text": "跑車",
+        "zhuyin": [
+          "ㄆㄠˇ",
+          "ㄔㄜ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-42",
+        "text": "上山",
+        "zhuyin": [
+          "ㄕㄤˋ",
+          "ㄕㄢ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-43",
+        "text": "下山",
+        "zhuyin": [
+          "ㄒㄧㄚˋ",
+          "ㄕㄢ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-44",
+        "text": "高山",
+        "zhuyin": [
+          "ㄍㄠ",
+          "ㄕㄢ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-45",
+        "text": "爬山",
+        "zhuyin": [
+          "ㄆㄚˊ",
+          "ㄕㄢ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-46",
+        "text": "說笑",
+        "zhuyin": [
+          "ㄕㄨㄛ",
+          "ㄒㄧㄠˋ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-47",
+        "text": "叫好",
+        "zhuyin": [
+          "ㄐㄧㄠˋ",
+          "ㄏㄠˇ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-48",
+        "text": "棉花",
+        "zhuyin": [
+          "ㄇㄧㄢˊ",
+          "ㄏㄨㄚ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-49",
+        "text": "水池",
+        "zhuyin": [
+          "ㄕㄨㄟˇ",
+          "ㄔˊ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "1-50",
+        "text": "泡泡",
+        "zhuyin": [
+          "ㄆㄠˋ",
+          "˙ㄆㄠ"
+        ],
+        "source": "extension"
+      }
+    ]
+  },
+  {
+    "name": "一句話",
+    "items": [
+      {
+        "id": "2-1",
+        "text": "你我一起走",
+        "zhuyin": [
+          "ㄋㄧˇ",
+          "ㄨㄛˇ",
+          "ㄧˋ",
+          "ㄑㄧˇ",
+          "ㄗㄡˇ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-2",
+        "text": "我們去看花",
+        "zhuyin": [
+          "ㄨㄛˇ",
+          "˙ㄇㄣ",
+          "ㄑㄩˋ",
+          "ㄎㄢˋ",
+          "ㄏㄨㄚ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-3",
+        "text": "小草開花了",
+        "zhuyin": [
+          "ㄒㄧㄠˇ",
+          "ㄘㄠˇ",
+          "ㄎㄞ",
+          "ㄏㄨㄚ",
+          "˙ㄌㄜ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-4",
+        "text": "太陽出來了",
+        "zhuyin": [
+          "ㄊㄞˋ",
+          "ㄧㄤˊ",
+          "ㄔㄨ",
+          "ㄌㄞˊ",
+          "˙ㄌㄜ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-5",
+        "text": "我們去爬山",
+        "zhuyin": [
+          "ㄨㄛˇ",
+          "˙ㄇㄣ",
+          "ㄑㄩˋ",
+          "ㄆㄚˊ",
+          "ㄕㄢ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-6",
+        "text": "火車來了",
+        "zhuyin": [
+          "ㄏㄨㄛˇ",
+          "ㄔㄜ",
+          "ㄌㄞˊ",
+          "˙ㄌㄜ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-7",
+        "text": "你看天空",
+        "zhuyin": [
+          "ㄋㄧˇ",
+          "ㄎㄢˋ",
+          "ㄊㄧㄢ",
+          "ㄎㄨㄥ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-8",
+        "text": "我看到星星",
+        "zhuyin": [
+          "ㄨㄛˇ",
+          "ㄎㄢˋ",
+          "ㄉㄠˋ",
+          "ㄒㄧㄥ",
+          "˙ㄒㄧㄥ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-9",
+        "text": "小花開了",
+        "zhuyin": [
+          "ㄒㄧㄠˇ",
+          "ㄏㄨㄚ",
+          "ㄎㄞ",
+          "˙ㄌㄜ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-10",
+        "text": "我們玩滑梯",
+        "zhuyin": [
+          "ㄨㄛˇ",
+          "˙ㄇㄣ",
+          "ㄨㄢˊ",
+          "ㄏㄨㄚˊ",
+          "ㄊㄧ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-11",
+        "text": "我想玩秋千",
+        "zhuyin": [
+          "ㄨㄛˇ",
+          "ㄒㄧㄤˇ",
+          "ㄨㄢˊ",
+          "ㄑㄧㄡ",
+          "ㄑㄧㄢ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-12",
+        "text": "你在我左邊",
+        "zhuyin": [
+          "ㄋㄧˇ",
+          "ㄗㄞˋ",
+          "ㄨㄛˇ",
+          "ㄗㄨㄛˇ",
+          "ㄅㄧㄢ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-13",
+        "text": "他在我右邊",
+        "zhuyin": [
+          "ㄊㄚ",
+          "ㄗㄞˋ",
+          "ㄨㄛˇ",
+          "ㄧㄡˋ",
+          "ㄅㄧㄢ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-14",
+        "text": "早上好",
+        "zhuyin": [
+          "ㄗㄠˇ",
+          "ㄕㄤˋ",
+          "ㄏㄠˇ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-15",
+        "text": "你看小水珠",
+        "zhuyin": [
+          "ㄋㄧˇ",
+          "ㄎㄢˋ",
+          "ㄒㄧㄠˇ",
+          "ㄕㄨㄟˇ",
+          "ㄓㄨ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-16",
+        "text": "我們好開心",
+        "zhuyin": [
+          "ㄨㄛˇ",
+          "˙ㄇㄣ",
+          "ㄏㄠˇ",
+          "ㄎㄞ",
+          "ㄒㄧㄣ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-17",
+        "text": "我找到你了",
+        "zhuyin": [
+          "ㄨㄛˇ",
+          "ㄓㄠˇ",
+          "ㄉㄠˋ",
+          "ㄋㄧˇ",
+          "˙ㄌㄜ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-18",
+        "text": "風來了",
+        "zhuyin": [
+          "ㄈㄥ",
+          "ㄌㄞˊ",
+          "˙ㄌㄜ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-19",
+        "text": "你也一起來",
+        "zhuyin": [
+          "ㄋㄧˇ",
+          "ㄧㄝˇ",
+          "ㄧˋ",
+          "ㄑㄧˇ",
+          "ㄌㄞˊ"
+        ],
+        "source": "extension"
+      },
+      {
+        "id": "2-20",
+        "text": "我們看太陽",
+        "zhuyin": [
+          "ㄨㄛˇ",
+          "˙ㄇㄣ",
+          "ㄎㄢˋ",
+          "ㄊㄞˋ",
+          "ㄧㄤˊ"
+        ],
+        "source": "extension"
+      }
+    ]
+  }
+]
