@@ -57,3 +57,41 @@ main.focus-reading{max-width:none;padding:12px}
  .focus-reading .feedback{font-size:22px}
  .focus-reading .actions button{font-size:24px}
 }
+/* Pink palette: dark rose text on pale petals for clear, comfortable reading. */
+:root{color:#51243d;background:#fff0f6;--rose:#b52667;--rose-dark:#861a4b;--petal:#fce0ed;--muted:#79465d;--pink-border:#edb7cf}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline-color:#861a4b}
+.brand-icon,.active .level-num,.primary,.draw-button{background:var(--rose);color:#fff}
+.brand p,.level small,.card-top,footer{color:var(--muted)}
+.help,.level{background:#fff9fc;border-color:var(--pink-border);color:#71314f}
+.level.active{border-color:var(--rose);background:var(--petal);color:var(--rose-dark)}
+.level-num{background:#f8d7e7}
+.journey{background:#8e2856;color:#fff}
+.eyebrow,.journey strong span{color:#ffe5f1}
+.star-disc{background:#a63d6b;color:#ffe0ed}
+.journey progress{accent-color:#ffc6e0}
+.stamps{color:#c981a1}.stamps .earned{color:#ffe0ed}
+.practice{background:#fffafd;border-color:#f5cddd;box-shadow:0 8px 0 #f3d5e3}
+.hanzi{color:#51243d}.zhuyin{color:#92345f}
+.secondary,.reading-view{color:var(--rose-dark);background:var(--petal)}
+.primary{box-shadow:0 5px 0 var(--rose-dark)}
+.primary.listening{background:#951749;box-shadow:0 5px 0 #681036}
+.won{border-color:#c02e72}.big-circle{color:#bd2369;text-shadow:0 2px 12px #fffafd}
+.notice,.cloud-status.pending{color:#853255}
+.cloud-status{color:#853255}.cloud-status button{background:#fff9fc;color:var(--rose-dark)}
+.parents,.collection{background:#fffafd}
+.parents a{color:var(--rose-dark)}
+.word-list span{background:var(--petal)}
+.reset{color:#861a4b;background:#fce0ed}
+.cloud-panel{background:#fff0f6;border-color:var(--pink-border)}
+.cloud-panel input{background:#fffafd;color:#51243d;border-color:#cc7a9f}
+.reward-bar{background:#fce0ed;border-color:#e9a9c7}
+.reward-bar strong,.reward-hint,.reward-message{color:#793450}
+.collection-button{background:#fffafd;color:var(--rose-dark)}
+.reward-card{background:#fff0f6;border-color:var(--pink-border)}
+.reward-card span{color:var(--rose-dark)}
+.reward-card.unowned{background:#faf0f5;color:#795466}
+.reward-card .mystery{color:#a16583}
+.reward-dialog{background:#fffafd;color:#51243d}
+.reward-dialog::backdrop{background:#51243dbb}
+.reward-dialog strong{color:var(--rose-dark)}
+.dialog-close{background:var(--petal);color:#51243d}
