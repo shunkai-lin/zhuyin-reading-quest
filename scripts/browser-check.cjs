@@ -4,6 +4,8 @@ const fs=require('node:fs');
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.BROWSER_PATH||'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
  const context=await browser.newContext({viewport:{width:1180,height:820}});
+ // This test isolates speech UI from cloud; cloud integration has a separate test.
+ await context.route('https://firestore.googleapis.com/**',route=>route.abort());
  await context.addInitScript(()=>{
   window.__spoken=[];window.__response='你';window.__mode='ok';
   document.modelContext={registerTool(tool){window.__progressTool=tool;}};
@@ -28,13 +30,13 @@ const fs=require('node:fs');
  await page.evaluate(()=>window.__mode='denied');await mic.click();await page.getByText('請大人允許麥克風與語音辨識，再試一次。').waitFor();
  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('zhuyin-quest-v1')).length),1);
  const data=JSON.parse(fs.readFileSync('lib/curriculum.json','utf8'));
- await page.evaluate(ids=>localStorage.setItem('zhuyin-quest-v1',JSON.stringify(ids)),data[0].items.slice(0,49).map(x=>x.id));await page.reload();
+ await page.evaluate(ids=>{localStorage.removeItem('zhuyin-cloud-v1');localStorage.setItem('zhuyin-quest-v1',JSON.stringify(ids));},data[0].items.slice(0,49).map(x=>x.id));await page.reload();
  await page.waitForFunction(()=>!document.querySelector('.primary').disabled);assert(await page.getByRole('button',{name:/兩個字/}).isDisabled());
  await page.evaluate(()=>{window.__mode='ok';window.__response='陽';});await mic.click();await page.getByRole('button',{name:'前往下一級'}).waitFor();
  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('zhuyin-quest-v1')).length),50);
  await page.getByRole('button',{name:'前往下一級'}).click();await page.waitForFunction(()=>document.querySelector('.reading').textContent.includes('起'));
  assert(await page.getByRole('button',{name:/一句話/}).isDisabled());
- await page.evaluate(ids=>localStorage.setItem('zhuyin-quest-v1',JSON.stringify(ids)),[...data[0].items,...data[1].items.slice(0,49)].map(x=>x.id));await page.reload();await page.waitForFunction(()=>!document.querySelector('.primary').disabled);
+ await page.evaluate(ids=>{localStorage.removeItem('zhuyin-cloud-v1');localStorage.setItem('zhuyin-quest-v1',JSON.stringify(ids));},[...data[0].items,...data[1].items.slice(0,49)].map(x=>x.id));await page.reload();await page.waitForFunction(()=>!document.querySelector('.primary').disabled);
  await page.evaluate(()=>window.__response='泡泡');await mic.click();await page.getByRole('button',{name:'前往下一級'}).click();
  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('zhuyin-quest-v1')).length),100);
  await page.evaluate(()=>window.__response='你我一起走');await mic.click();await page.getByText('讀對了！你真棒！').waitFor();

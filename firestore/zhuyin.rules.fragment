@@ -1,0 +1,37 @@
+    // BEGIN ZHUYIN READING QUEST -- dedicated capability-protected progress documents.
+    // A cryptographically random 128-bit code is the read/write capability. No student names or audio.
+    match /zhuyinProgress/{code} {
+      allow get: if code.matches('^[a-f0-9]{32}$');
+      allow list, delete: if false;
+      allow create: if code.matches('^[a-f0-9]{32}$')
+        && validZhuyinData()
+        && request.resource.data.epoch == 0
+        && request.resource.data.draws.size() == 0
+        && request.resource.data.createdAt == request.time;
+      allow update: if code.matches('^[a-f0-9]{32}$')
+        && validZhuyinData()
+        && request.resource.data.createdAt == resource.data.createdAt
+        && ((request.resource.data.epoch == resource.data.epoch
+              && request.resource.data.passed.hasAll(resource.data.passed)
+              && (request.resource.data.draws == resource.data.draws
+                  || (request.resource.data.passed == resource.data.passed
+                      && request.resource.data.draws.size() == resource.data.draws.size() + 1
+                      && request.resource.data.draws == resource.data.draws.concat([request.resource.data.draws[resource.data.draws.size()]]))))
+            || (request.resource.data.epoch == resource.data.epoch + 1
+              && request.resource.data.passed.size() == 0
+              && request.resource.data.draws.size() == 0));
+    }
+    function validZhuyinData() {
+      let d = request.resource.data;
+      return d.keys().hasOnly(['passed', 'draws', 'epoch', 'version', 'createdAt', 'updatedAt'])
+        && d.keys().hasAll(['passed', 'draws', 'epoch', 'version', 'createdAt', 'updatedAt'])
+        && d.version == 1
+        && d.epoch is int && d.epoch >= 0 && d.epoch <= 1000000000
+        && d.createdAt is timestamp && d.updatedAt == request.time
+        && d.passed is list && d.passed.size() <= 120
+        && d.passed.toSet().size() == d.passed.size()
+        && d.draws is list && d.draws.size() * 10 <= d.passed.size()
+        && d.draws.hasOnly([REWARD_IDS])
+        && d.passed.hasOnly([VALID_IDS]);
+    }
+    // END ZHUYIN READING QUEST
