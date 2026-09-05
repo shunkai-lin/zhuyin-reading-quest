@@ -61,6 +61,7 @@ async function newDevice() {
   });
   const page = await context.newPage();
   await page.goto(process.env.APP_URL || 'http://127.0.0.1:3001/');
+  await page.getByRole('button', { name: '關卡與獎勵', exact: true }).click();
   await synced(page);
   codes.push((await state(page)).code);
   persist();
@@ -130,9 +131,25 @@ try {
   assert.deepEqual((await getDoc(r)).data().passed, []);
   console.log('PASS: real reset and offline stale-progress protection.');
   await b.page.reload();
+  await b.page.getByRole('button', { name: '關卡與獎勵', exact: true }).click();
   await synced(b.page);
   assert.equal((await state(b.page)).code, code);
   assert.deepEqual((await state(b.page)).passed, []);
+  await updateDoc(r, {
+    passed: Array.from({ length: 10 }, (_, n) => `0-${n + 1}`),
+    updatedAt: serverTimestamp(),
+  });
+  await b.page.getByText('10 顆星', { exact: true }).waitFor();
+  await b.page.getByRole('button', { name: '10 顆星・扭蛋一次', exact: true }).click();
+  await b.page.getByRole('dialog').waitFor();
+  await b.page.getByRole('button', { name: '收下，繼續讀！' }).click();
+  assert.equal((await getDoc(r)).data().draws.length, 1);
+  await b.page.reload();
+  await b.page.getByRole('button', { name: '關卡與獎勵', exact: true }).click();
+  await synced(b.page);
+  assert.equal((await state(b.page)).draws.length, 1);
+  assert(await b.page.getByRole('button', { name: '10 顆星・扭蛋一次', exact: true }).isDisabled());
+  console.log('PASS: live reward transaction, 10-star deduction and collection restored after reload.');
   console.log(
     'PASS: reload reads confirmed cloud progress. Speech input was simulated; database was live.',
   );
