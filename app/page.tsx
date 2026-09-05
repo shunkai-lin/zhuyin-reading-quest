@@ -13,6 +13,7 @@ import { levels, isMatch, unlocked, type Item } from '../lib/curriculum';
 import { registerProgressTool } from '../lib/webmcp';
 import { CloudProgress, type CloudState } from '../lib/cloud-progress';
 import RewardsPanel from './rewards-panel';
+import PhonicsDemo from './phonics-demo';
 type Rec = {
   lang: string;
   continuous: boolean;
@@ -41,6 +42,7 @@ function Zhuyin({ value }: { value: string }) {
   );
 }
 export default function Home() {
+  const [demo, setDemo] = useState<Item | null>(null);
   const [focusReading, setFocusReading] = useState(true);
   const [ready, setReady] = useState(false),
     [passed, setPassed] = useState<string[]>([]),
@@ -127,6 +129,7 @@ export default function Home() {
   // React compiler lint cannot hoist this callback; this app uses the standard React runtime.
   // oxlint-disable-next-line react/react-compiler
   function cancel() {
+    setDemo(null);
     token.current++;
     rec.current?.abort();
     rec.current = null;
@@ -147,6 +150,14 @@ export default function Home() {
     return () => document.removeEventListener('visibilitychange', f);
   }, []);
   function speak(target: Item, correction = false) {
+    if (!correction && Array.from(target.text).length === 1) {
+      cancel();
+      setDemo(target);
+      return;
+    }
+    speakWhole(target, correction);
+  }
+  function speakWhole(target: Item, correction = false) {
     cancel();
     if (!('speechSynthesis' in window)) {
       setStatus('這個瀏覽器無法播放，請大人陪你讀注音。');
@@ -320,6 +331,8 @@ export default function Home() {
   }
   return (
     <main className={focusReading ? 'focus-reading' : ''}>
+      {demo && <PhonicsDemo key={demo.id} item={demo} onClose={() => setDemo(null)}
+        onWhole={() => { setDemo(null); speakWhole(demo); }} />}
       <header>
         <div className="brand">
           <span className="brand-icon">

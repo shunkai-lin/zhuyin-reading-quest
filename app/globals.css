@@ -95,3 +95,15 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline-color:#861a4b
 .reward-dialog::backdrop{background:#51243dbb}
 .reward-dialog strong{color:var(--rose-dark)}
 .dialog-close{background:var(--petal);color:#51243d}
+/* Keep the guided reference player visible above the full-screen reading view. */
+main.focus-reading>.phonics-dialog[open],.phonics-dialog[open]{display:flex;flex-direction:column;gap:12px}
+.phonics-dialog{margin:auto;width:min(980px,calc(100% - 24px));max-height:94dvh;overflow:auto;border:2px solid var(--pink-border);border-radius:24px;padding:24px;background:#fffafd;color:#51243d;font-size:22px}
+.phonics-dialog::backdrop{background:#51243dcc}
+.phonics-heading,.phonics-bottom{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.phonics-heading h2{font-size:28px;margin:0}.phonics-dialog button{background:var(--petal);color:var(--rose-dark);padding:12px 18px;border-radius:12px;min-height:48px}
+.phonics-current{font-size:28px}.phonics-current strong{font-size:56px;margin-left:16px}
+.phonics-steps{display:flex;gap:10px;flex-wrap:wrap}.phonics-steps button{font-size:28px}
+.phonics-steps [aria-current]{background:var(--rose);color:white}
+.phonics-dialog video{width:100%;min-height:0;max-height:44dvh;background:#fff;border-radius:14px}
+.phonics-dialog a{color:var(--rose-dark);text-decoration:underline}
+@media(max-width:600px){.phonics-dialog{padding:16px}.phonics-heading h2{font-size:24px}.phonics-steps button{font-size:24px;padding:10px}.phonics-current strong{font-size:44px}}
